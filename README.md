@@ -33,4 +33,3 @@ There are a couple of different options outside of a basic neural network. Given
 The second option is a RandomForest Classifier. A Random Forest classifier uses a number of decision trees and combines the output to make a final classification. To use this model would take a lot more data modification in order for it to work as this model can only work with linear data. Similar to a SVM, the data would be encoded and merged with the original data in order to create training and testing sets. 
 
 The purpose of having these other two models at our disposal is to compare performance of models. One of the common setbacks of any machine learning models is over fitting as these networks are capable of handling a wide variety of data types and structures regardless of any general modifications made. 
-=======
