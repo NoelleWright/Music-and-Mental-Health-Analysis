@@ -11,7 +11,7 @@ The purpose of this analysis is to uncover trends with music and mental health. 
 
 
 
-## Projected Visualiztations
+## Projected Visualizations
 
 Using the information from our data source, we will be providing the following visualizations made with Tableau:
 
@@ -28,3 +28,25 @@ The goal of our machine learning model is to predict how a persons’ mental hea
 ### Models
 
 Given that we are giving our data a classification model of supervised learning, one option would be a Support Vector Machine (SVM). The benefit of SVM versus other linear regression models is that SVM can work with non-linear data.  A possible disadvantage to using this model is that if our dataset has high dimensionality, this model could under-fit the data. For this model to function properly, we will be pre-processing our data such that all the text values are all numeric values. We can use either LabelEncoder() or OneHotEncoder() to perform these tasks. Once our input data has been cleaned, we can build our model using sklearn to create training and testing subsets. SQL will also be used to make tables for the dataframe. Finally, we will fit our training data into the model in order to make predictions.
+
+### First Attempt Results
+
+The following images show the results from the first attempt of the machine learning model. 
+
+- Accuracy Score
+
+![image2](Images/Accuracy_Score_1.png)
+
+- Confusion Matrix
+
+![image3](Images/Confusion_Matrix_1.png)
+
+- Summary Statistics
+
+![image4](Images/Summary_Statistics_1.png)
+
+### First Attempt Summary
+
+From the images displayed above, we can see that the machine learning model was 96% accurate. Looking at the summary statistics, however, we can see that the model is 99% precise when predicting neutral and negative outcomes on mental health versus 20% precision when predicting positive outcomes on mental health.
+
+In the next attempt, we are going to leave the musical_effect column out of the encoding to see if that changes the results. We predict that by doing this, it will make our machine learning model more accurate with predicting positive outcomes. 
