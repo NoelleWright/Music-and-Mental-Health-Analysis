@@ -7,7 +7,8 @@ The purpose of this analysis is to uncover trends with music and mental health. 
 
 ## Diagram for Exploratory Analysis and Visualization
 
-![image](https://user-images.githubusercontent.com/118686588/235813535-d5283032-3c3e-4937-826f-fc873e4f395d.png)
+![demographic_analysis](https://github.com/NoelleWright/Music-and-Mental-Health-Analysis/assets/118686588/94e88232-5a3e-443a-a0b4-7d94d339d1a7)
+
 
 
 
