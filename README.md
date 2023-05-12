@@ -61,3 +61,11 @@ The following images show the results from the first attempt of the machine lear
 From the images displayed above, we can see that the machine learning model was 96% accurate. Looking at the summary statistics, however, we can see that the model is 99% precise when predicting neutral and negative outcomes on mental health versus 20% precision when predicting positive outcomes on mental health.
 
 In the next attempt, we are going to leave the musical_effect column out of the encoding to see if that changes the results. We predict that by doing this, it will make our machine learning model more accurate with predicting positive outcomes. 
+
+## Next Steps
+
+Our next steps in finalizing this analysis is to do the following:
+
+- Add more visualizations to our dashboard to create a picture of users' mental health status and musical preferences
+- Optimization of our Machine Learning Model
+- Connecting our database to a cloud based server (AWS)
