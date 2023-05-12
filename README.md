@@ -4,6 +4,10 @@
 
 The purpose of this analysis is to uncover trends with music and mental health. Subjects were surveyed and provided personal information, musical preferences and levels of mental illness on a scale of 1-10. Results are stored in a dataset provided by kaggle.com. 
 
+Our presentation slide deck can be seen here:
+
+https://docs.google.com/presentation/d/1_F85WKOYf0-_r0zClQQ75hYl8oIgQtQtSywZXXeDdTw/edit?userstoinvite=noellewright81%40gmail.com&actionButton=1#slide=id.g241bfa74cdf_0_130
+
 ## Working Tableau Dashboard link
 
 Our vizualizations for our presentation can be found by using the link below:
