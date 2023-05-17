@@ -12,7 +12,7 @@ https://docs.google.com/presentation/d/1_F85WKOYf0-_r0zClQQ75hYl8oIgQtQtSywZXXeD
 
 Our vizualizations for our presentation can be found by using the link below:
 
-https://public.tableau.com/views/WorkingDashboardforMusicandMentalHealth/DashboardofFrequencies?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link 
+https://public.tableau.com/views/WorkingDashboardforMusicandMentalHealth/StreamingServicesPieChart?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link  
 
 
 ## Diagram for Exploratory Analysis and Visualization
