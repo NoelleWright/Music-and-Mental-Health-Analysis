@@ -20,18 +20,6 @@ https://public.tableau.com/views/WorkingDashboardforMusicandMentalHealth/Streami
 ![demographic_analysis](https://github.com/NoelleWright/Music-and-Mental-Health-Analysis/assets/118686588/94e88232-5a3e-443a-a0b4-7d94d339d1a7)
 
 
-
-
-## Projected Visualizations
-
-Using the information from our data source, we will be providing the following visualizations made with Tableau:
-
-* Heatmap
-
-* Piechart
-
-* Bar Chart
-
 ## Machine Learning Mockup
 
 The goal of our machine learning model is to predict how a persons’ mental health is affected given their music preferences. The three outcomes as presented in the data are: No effect, improve or worsen. Given that we are trying to have our machine learning model predict data that is already present in our output data, the best model would be a supervised machine learning model. The type of problem it will be analyzing is a classification problem.
@@ -69,3 +57,11 @@ Our next steps in finalizing this analysis is to do the following:
 - Add more visualizations to our dashboard to create a picture of users' mental health status and musical preferences
 - Optimization of our Machine Learning Model
 - Connecting our database to a cloud based server (AWS)
+
+## Machine Learning Final Results
+
+After leaving the "music effect" column out of the encoding, the machine learning model had some very different results that seem to be more reflective of the data. After trying to replicate the process with a Support Vector Machine, the machine was only predicting "improve" values due to the fact that there were not enough "no effect" and "worsen" observations in the data. As a result, oversampling, more specifically SMOTE, was used to synthetically add data to our dataset. Then, instead of a support vector machine, a random forest classifier was used to obtain more accurate results. 
+
+![Final_results](Images/Final_Results_ML.png)
+
+As you can see, the overall accuracy score has decreased from the first attempt of the model (99% to 73%). Still, the model was unable to accurately predict neutral and negative outcomes. These results demonstrate that even after oversampling, more data is required in order for the model to make accurate predictions. If more time was given, we could optimize the model by dropping less important features or dummy variables could have been created as another way to surmount the lack of data required for an accurate model. 
